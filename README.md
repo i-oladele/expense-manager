@@ -11,7 +11,7 @@ Expense Manager is a simple Python-based expense tracking system that allows use
 
 ## 🚀Clone the Repository
 
-## Install Dependencies (if needed)
+Install Dependencies (if needed)
 This project runs on Python 3. Ensure you have Python installed by running:
 
 ```
@@ -31,7 +31,7 @@ cd expense-manager
 ```
 ---
 
-##🏃 Running the Project
+## Running the Project
 
 Run the Python script using:
 ```
