@@ -23,6 +23,10 @@ To get a copy of this project on your local machine, run:
 
 ```
 git clone https://github.com/i-oladele/expense-manager/
+```
+---
+Navigate into the directory by running
+```
 cd expense-manager
 ```
 ---
@@ -35,4 +39,4 @@ python expense_manager.py
 ---
 
 ## Example Usage
-The script includes an example usage in if __name__ == "__main__": block 
+The script includes an example usage in `if __name__ == "__main__":` block 
