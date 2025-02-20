@@ -31,7 +31,7 @@ cd expense-manager
 ```
 ---
 
-## Running the Project
+## 🧑🏾‍💻 Running the Project
 
 Run the Python script using:
 ```
