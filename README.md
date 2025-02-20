@@ -11,19 +11,19 @@ Expense Manager is a simple Python-based expense tracking system that allows use
 
 ## 🚀Clone the Repository
 
-To get a copy of this project on your local machine, run:
-
-```
-git clone https://github.com/i-oladele/expense-manager/
-cd expense-manager
-```
----
-
 ## Install Dependencies (if needed)
 This project runs on Python 3. Ensure you have Python installed by running:
 
 ```
 python --version
+```
+---
+
+To get a copy of this project on your local machine, run:
+
+```
+git clone https://github.com/i-oladele/expense-manager/
+cd expense-manager
 ```
 ---
 
