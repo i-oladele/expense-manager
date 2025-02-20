@@ -30,8 +30,7 @@ class Expense:
 class ExpenseDB:
 
     def __init__(self, expenses=None):
-        if expenses:
-            self.expenses = []
+        self.expenses = expenses if expenses else []
 
     def add_expense(self, expense):
         self.expenses.append(expense)
@@ -46,11 +45,29 @@ class ExpenseDB:
         return None  
     
     def get_expense_by_title(self, title):
-        return [expense for expense in self.expenses if expense.title == title]
+        for expense in self.expenses:
+            if expense.title == title:
+                return expense
+        return None
     
     def to_dict(self):
         return [expense.to_dict() for expense in self.expenses]
     
 
 
+if __name__ == "__main__":
+    my_expenses = ExpenseDB()
 
+    expense1 = Expense("Groceries", 50.75)
+    my_expenses.add_expense(expense1)
+
+    expense2 = Expense("Utilities", 120.00)
+    my_expenses.add_expense(expense2)
+
+    print("All expenses:", my_expenses.to_dict())
+
+    expense1.update(amount=60.00)
+    print("Updated expense:", expense1.to_dict())
+
+    my_expenses.remove_expense(expense1)
+    print("After removal:", my_expenses.to_dict())
