@@ -32,6 +32,7 @@ cd expense-manager
 ---
 
 ##🏃 Running the Project
+
 Run the Python script using:
 ```
 python expense_manager.py
